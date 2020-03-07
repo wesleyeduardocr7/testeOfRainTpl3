@@ -13,6 +13,9 @@ Tpl::configure( $config );
 
 $tpl = new Tpl;
 
+$tpl->assign( "name", "Treinando novos Recursos PHP7" );
+$tpl->assign( "version", PHP_VERSION );
+
 $tpl->draw( "index" );
 
 ?>
