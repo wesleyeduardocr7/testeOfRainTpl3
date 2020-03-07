@@ -1,0 +1,1 @@
+# testeOfRainTpl3
